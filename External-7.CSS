@@ -1,0 +1,98 @@
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: #cccccc;
+    color: black;
+    background-image: url("paper.gif");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* CSS Content html */
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: #1bffd9;
+    outline-style: solid;
+    outline-color: black;
+}
+
+.header {
+    padding: 15px;
+    padding-bottom: 5px;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.container .header ul {
+    margin-left: -40px;
+}
+
+.header a {
+    text-decoration: none;
+    color: blue;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+.hero {
+    height: 380px;
+    background-image: url(https://media.istockphoto.com/id/1078152952/id/foto/pertempuran-taekwondo-pria-dan-wanita.jpg?s=612x612&w=0&k=20&c=MsL6HSEvHVjL46y0lYvUE3mCAW6GhcrLf0J2uRUDwqA=);
+    background-position: 0 --75px;
+    outline-style: solid;
+    outline-color: black;
+    outline-width: 3px;
+ }
+
+ .content {
+    padding: 15px;
+ }
+
+ .content .penulis {
+    margin-top: -15px;
+    font-size: 16px;
+ }
+
+ .content .penulis a {
+    text-decoration: none;
+    color: blue;
+ }
+
+ .content p {
+    text-align: justify;
+ }
+
+/* CSS video */
+
+ .video h2 {
+    padding: 15px;
+    margin-top: -20px;
+ }
+ .video iframe {
+    width: 668px;
+    height: 390px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+
+/* CSS Footer */
+
+.footer{
+    background-color: black;
+    text-align: center;
+}
+
+.footer p{
+    color: lightblue;
+    font-size: 16px;
+    letter-spacing: 3px;
+}
+ 
